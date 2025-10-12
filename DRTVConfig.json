@@ -1,0 +1,27 @@
+{
+  "$schema": "https://github.com/MithrilGoat/GrayJay-Plugin-Schema/releases/latest/download/Schema.json",
+  "name": "DRTV",
+  "description": "Danish national broadcaster television network.",
+  "author": "Colorman",
+  "authorUrl": "https://github.com/TheColorman/grayjay-plugin-drtv",
+  "platformUrl": "https://dr.dk/drtv",
+  "sourceUrl": "https://raw.githubusercontent.com/TheColorman/grayjay-plugin-drtv/refs/heads/main/DRTVConfig.json",
+  "repositoryUrl": "https://github.com/TheColorman/grayjay-plugin-drtv",
+  "scriptUrl": "./dist/bundle.js",
+  "version": 1,
+  "iconUrl": "./DRTVIcon.png",
+  "id": "5fdac826-a7ce-4f90-ba26-d00cde1e0567",
+  "scriptSignature": "RD5wfdq4PfZRiwERX30tQc9ESzf7RX8uARqghhmPzFbYyUyi3FhJTtmKN0tvpmplMiOogxAgrIUYO+EqtDJnmzMDkgPFwhJ8sGOWXVZ0V+GDotOVzeIu8RdlM+oypjseqcXwsQ7UX+IRudFU3EuusgFF9aJejayZte4/ge3fWggg+T/LT+tw4Z/xiEbh/XI41lkgM54k2TlCzOMS9loxLBiZyH/yB87DUTlAjY91a1c8L+kfSpdPGd5Xxjqqy+ToOyYzXC5iWdDzkAA7xigGz/VSVOIs5s4tAuoWsoLVfZ8cOyqIrF00/KlaT22FT6njY4NbiiEiZ8pc7jko9QLXdAt6w1ajt2O6/IuCCdpE49lC70MYM+uLOODxrOTgSJunZQJJgn2IyGGNIMF/A5Ov1fVNht60ahiY894UV1Lyo2dy2DjE7Lv7h0IpciKaOIX8b1OKZzQrHJ793H7c5V2omxsGTf0Hsime5ZwwYhyoIm/VTnOhLdYjREYUJNxqbmxe",
+  "scriptPublicKey": "MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAxybSYz6Ia8GXZDyolNJow33MAHCzIFAqUHTDCf14e5WEhh01hWvKZJeq6E4VI+K0Di/zqwoLUsyA+qQHbuW9S6Y/3kdHhAv/jEsLn5vcH+pcK/+2KMuShoJtNt2lSY0Lp+Bjz52tXlLhxIEinK4NILHzJntiozkpMD2iQSHQGmiSRkNMWRl2CS37/Woarhk0dwzba43QdZINpFSGiyf0UVdaVLxxuyNN5yp915B8IJk8MDVrhJp4GVd//ewcS6Hg2kO/ARikVLoH+Rez/IPicm6hhEdRTu4gntS5Yl5ofWrD1Z2VMGSzNTgIXfXXT0Qm+1k4+zDjU2bkoHw2Bh3f1hUaSUDooIPpWXsHekoG9y+Mhzsk/j/DxmvQsF1gCBWsmPpQ496KwlRMVRmU4Rtf9YhjyU7JZQaixGfc69TZHmaZf7STFSJPvJqHX+0QQdIlLh+3VFFMIjeGjyxRmz1ajPR8sbVhPL+rlO8TTpHgNkE8jpmMjJcrWN5IpGcozl4dAgMBAAE=",
+  "packages": [
+    "Http"
+  ],
+  "allowEval": false,
+  "allowUrls": [
+    "dr.dk",
+    "production-cdn.dr-massive.com",
+    "production-static.dr-massive.com",
+    "prod95-cdn.dr-massive.com",
+    "prod95-static.dr-massive.com"
+  ]
+}

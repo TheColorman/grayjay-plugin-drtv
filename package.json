@@ -1,0 +1,32 @@
+{
+  "name": "grayjay-plugin-drtv",
+  "version": "1.0.0",
+  "description": "Plugin for GrayJay that allows streaming from DRTV",
+  "homepage": "https://github.com/TheColorman/grayjay-plugin-drtv",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheColorman/grayjay-plugin-drtv"
+  },
+  "keywords": ["drtv", "grayjay"],
+  "author": "Colorman",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://gitlab.futo.org/videostreaming/plugins/odysee/issues"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/grayjay-source": "gitlab:kaidelorenzo/grayjay-plugin-types#c750f680835bb47bfff90466acaa697920a2a82a",
+    "@types/node": "^22.13.4",
+    "esbuild": "^0.27.2",
+    "eslint": "^9.20.1",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --format=iife --platform=browser"
+  }
+}
